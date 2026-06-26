@@ -1,0 +1,29 @@
+# Build do Pico (apenas .uf2 é necessário)
+pico/build/*.elf
+pico/build/*.bin
+pico/build/*.o
+pico/build/*.map
+pico/build/CMakeCache.txt
+pico/build/CMakeFiles/
+pico/build/cmake_install.cmake
+pico/build/Makefile
+pico/build/_deps/
+pico/build/pico-sdk/
+
+# Não ignorar o .uf2
+!pico/build/*.uf2
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Dados do dashboard
+dashboard/dados_sensores.csv
+
+# Arquivos temporários
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
