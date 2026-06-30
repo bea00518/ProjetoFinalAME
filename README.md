@@ -260,30 +260,6 @@ https://drive.google.com/file/d/182xsusvowmiHVy68SBrIEDXJBlNbkA6z/view?usp=shari
 
 ---
 
-# 📸 Imagens
-
-Adicione nesta pasta:
-
-```
-images/
-```
-
-Exemplos:
-
-- prototipo.jpg
-- arquitetura.png
-- accuracy.png
-- loss.png
-- matriz_confusao.png
-
-Depois basta inserir no README:
-
-```markdown
-![Protótipo](images/prototipo.jpg)
-```
-
----
-
 # 🔮 Trabalhos Futuros
 
 - Utilização de dados coletados em ambiente real.
